@@ -63,9 +63,29 @@ namespace RockPaperScissors.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
+        internal static byte[] funny_paper {
+            get {
+                object obj = ResourceManager.GetObject("funny_paper", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
         internal static byte[] funny_rock {
             get {
                 object obj = ResourceManager.GetObject("funny_rock", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] scissors {
+            get {
+                object obj = ResourceManager.GetObject("scissors", resourceCulture);
                 return ((byte[])(obj));
             }
         }
